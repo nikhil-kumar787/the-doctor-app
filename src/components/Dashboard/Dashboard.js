@@ -11,7 +11,7 @@ function classNames(...classes) {
 
 export default function Dashboard() {
   return (
-    <div>
+    <div class="bg-gray-200">
       <Disclosure as="nav" className="bg-gray-800">
         {({ open }) => (
           <>
